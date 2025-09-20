@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Focus Cat Options</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        width: 400px;
+        margin: 20px;
+        background: #f5f5f5;
+      }
+      .container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      h3 {
+        color: #333;
+        margin-bottom: 15px;
+      }
+      input {
+        width: 250px;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      button {
+        margin-left: 10px;
+        padding: 8px 15px;
+        background: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #45a049;
+      }
+      .remove-btn {
+        background: #f44336;
+        padding: 4px 8px;
+        margin-left: 10px;
+        font-size: 12px;
+      }
+      .remove-btn:hover {
+        background: #da190b;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        padding: 8px;
+        margin: 5px 0;
+        background: #f9f9f9;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .cat-emoji {
+        font-size: 24px;
+        margin-right: 10px;
+      }
+
+      /* Align the input and button container */
+      .add-site-container {
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+      }
+
+      /* Remove left margin from Add Site button to align with input */
+      #addSite {
+        margin-left: 0;
+      }
+
+      /* Back button styling */
+      .back-btn {
+        background: #6c757d;
+        margin-bottom: 15px;
+        margin-left: 0;
+        padding: 8px 15px;
+      }
+
+      .back-btn:hover {
+        background: #5a6268;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button class="back-btn" onclick="window.close()">
+        Close Settings (Click the extension icon again to return)
+      </button>
+
+      <h3>Focus Cat Settings</h3>
+
+      <h4>Blocked Sites</h4>
+      <ul id="siteList"></ul>
+
+      <div class="add-site-container">
+        <input id="newSite" placeholder="example.com" />
+        <button id="addSite">Add Site</button>
+      </div>
+
+      <div
+        style="margin-top: 20px; padding-top: 15px; border-top: 1px solid #eee"
+      >
+        <small style="color: #666">
+          Tip: Your desktop cat will appear on all sites except blocked ones!
+        </small>
+      </div>
+    </div>
+
+    <script src="options.js"></script>
+  </body>
+</html>

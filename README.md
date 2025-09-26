@@ -1,3 +1,6 @@
 A cute but angry cat blocks your screen when you open distracting sites!
 
 The Angry Cat Chrome Extension is a playful yet powerful productivity tool designed to keep users focused by disrupting their screen whenever they visit distracting websites. At its core, the extension features an animated angry cat that appears when blocked sites—like YouTube or social media—are accessed, serving as a visual and emotional reminder to stay on task. Through the popup interface, users can enable or disable the cat’s behavior, manage their list of blocked websites, and set a custom focus timer to stay productive for a chosen period. While enabled, the cat may also appear in the corner of the screen (every tab) in an idle state. Combining discipline with delight, Angry Cat turns procrastination into a game of self-control, guarded by your fiercest feline companion.
+
+
+[Check out my Chrome Extension](https://chromewebstore.google.com/detail/focus-cat-stop-entertainm/ffkmmlfnehpmdhkdfjhihibfkbdflmag)
